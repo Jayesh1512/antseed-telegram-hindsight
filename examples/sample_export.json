@@ -1,0 +1,39 @@
+{
+  "name": "Partner - Antseed",
+  "type": "supergroup",
+  "id": -1003701057366,
+  "messages": [
+    {
+      "id": 101,
+      "type": "service",
+      "date": "2026-11-25T08:00:00Z",
+      "actor": "Telegram",
+      "action": "invite_members"
+    },
+    {
+      "id": 102,
+      "type": "message",
+      "date": "2026-11-25T09:00:00Z",
+      "from": "Bob Example",
+      "from_id": "user-2",
+      "text": "Can you support the new Dock setup?"
+    },
+    {
+      "id": 103,
+      "type": "message",
+      "date": "2026-11-25T09:03:00Z",
+      "from": "Alice Example",
+      "from_id": "user-1",
+      "reply_to_message_id": 102,
+      "text": "Yes. Send the requirements on Friday."
+    },
+    {
+      "id": 104,
+      "type": "message",
+      "date": "2026-11-25T09:04:00Z",
+      "from": "Bob Example",
+      "from_id": "user-2",
+      "text": "gm"
+    }
+  ]
+}

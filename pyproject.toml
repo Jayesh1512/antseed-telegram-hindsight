@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "antseed-telegram-hindsight"
+version = "0.1.0"
+description = "Deterministic Telegram-to-Hindsight daily memory pipeline"
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "Proprietary" }
+authors = [{ name = "Antseed" }]
+dependencies = []
+
+[project.scripts]
+telegram-hindsight = "telegram_hindsight.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

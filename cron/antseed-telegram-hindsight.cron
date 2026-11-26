@@ -1,0 +1,6 @@
+# Install on RaviAntbot's own system with: crontab cron/antseed-telegram-hindsight.cron
+# The pipeline uses an internal lock, so no external flock utility is required.
+SHELL=/bin/sh
+PATH=/usr/local/bin:/usr/bin:/bin
+
+15 3 * * * set -a; . "$HOME/.config/antseed-telegram-hindsight/env"; set +a; "$HOME/Projects/antseed-telegram-hindsight/.venv/bin/telegram-hindsight" daily --chat-id -1003701057366 --days 30 --bank hermes-telegram-staging >> "$HOME/.local/share/antseed-telegram-hindsight/daily.log" 2>&1
